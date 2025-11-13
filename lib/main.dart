@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'expenses.dart';
+import 'widgets/expenses_screen.dart';
 
 
 void main() {
