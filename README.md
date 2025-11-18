@@ -5,15 +5,15 @@ This is a modern, responsive, and cross-platform mobile application built with F
 ## ✨ Features
 
 * **Expense Input:** Easily add new expenses with a title, monetary amount, date, and category.
-* **Dynamic Chart:** Visual representation of weekly spending, showing expense distribution across categories.
-* **Expense List:** Clear listing of all recorded expenses.
-* **Swipe to Delete:** Effortlessly remove expenses using a dismissible swipe gesture (right-to-left).
+* **Dynamic Chart:* * Visual representation of weekly spending, showing expense distribution across categories.
+* **Expense List:* * Clear listing of all recorded expenses.
+* **Swipe to Delete:* * Effortlessly remove expenses using a dismissible swipe gesture (right-to-left).
 * **Responsive UI:** Optimized layout that adjusts seamlessly for both portrait and landscape orientations (where applicable).
 * **Theming:** Supports both **Light** and **Dark Mode** based on the user's system settings, with custom color schemes for a polished Material 3 look.
 
 ## 🛠️ Installation and Setup
 
-### Prerequisites
+### Prerequisites   
 
 * **Flutter SDK:** Ensure you have Flutter installed (version 3.x or higher recommended).
 * **Dart SDK:** Dart is included with Flutter.
