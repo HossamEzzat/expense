@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widgets/expenses_screen.dart';
 
-
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 96, 59, 181),
 );
@@ -15,11 +14,10 @@ void main() {
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
-        useMaterial3: true,
         colorScheme: kDarkColorScheme,
-        cardTheme: const CardTheme().copyWith(
+        cardTheme:  CardThemeData().copyWith(
           color: kDarkColorScheme.secondaryContainer,
-          margin: const EdgeInsets.symmetric(
+          margin:  EdgeInsets.symmetric(
             horizontal: 16,
             vertical: 8,
           ),
@@ -32,13 +30,12 @@ void main() {
         ),
       ),
       theme: ThemeData().copyWith(
-        useMaterial3: true,
         colorScheme: kColorScheme,
         appBarTheme: const AppBarTheme().copyWith(
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         ),
-        cardTheme: const CardTheme().copyWith(
+        cardTheme:  CardThemeData().copyWith(
           color: kColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(
             horizontal: 16,
@@ -58,7 +55,6 @@ void main() {
           ),
         ),
       ),
-      // themeMode: ThemeMode.system, // default
       home: const Expenses(),
     ),
   );
